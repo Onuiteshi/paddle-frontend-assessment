@@ -14,6 +14,8 @@ Run `npm install` or `yarn install` in the root folder
 to start project
 
 ### windows, linux and mac users run - `npm run dev`
+project will run on http://localhost:3000/
+click GITHUB on the nave bar to direct to task 2 
 
 this should be run from the root folder
 
