@@ -1,121 +1,205 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.leftText {
+  margin-top: 80px;
 }
 
-.main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.leftText p {
+  font-size: 15px;
+  color: #4f5665;
 }
 
-.footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.leftText h1 {
+  color: #0b132a;
+  text-shadow: 0px 2px 4px #ba55d3;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.leftText button {
+  color: #fff;
+  background-color: #ba55d3;
+  width: 200px;
+  font-weight: bold;
+  padding: 17px 5px;
+  box-shadow: 20px 15px 30px 9px rgba(186, 85, 211, 0.35);
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.cardBody h1 {
+  font-size: 23px;
+  color: #0b132a;
+  font-weight: 700;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.cardBody p {
+  color: #4f5665;
+  font-size: 18px;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.features h1 {
+  color: #0b132a;
+  font-weight: 500;
 }
 
-.title,
-.description {
-  text-align: center;
+.features p {
+  color: #4f5665;
+  font-size: 16px;
+}
+.features li {
+  color: #4f5665;
+  font-size: 14px;
+}
+.features ul {
+  list-style: none;
+  padding-left: 0px !important;
+}
+.features ul li::before {
+  content: "\25AA"; /* Add content: \2022 is the CSS Code/unicode for a 
+  bullet */
+  color: #ba55d3; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* 
+  Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
 }
 
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+.choosePlan {
+  background: linear-gradient(to bottom, #f8f8f8, rgba(248, 248, 248, 0));
+  padding-top: 80px;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.choosePlan p {
+  color: #4f5665;
+  font-size: 14px;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
+.choosePlan h1 {
+  color: #0b132a;
+  font-weight: 500;
+}
+.choosePlan h3 {
+  margin-top: 22px;
+  margin-bottom: 30px;
+  color: #0b132a;
+  font-size: 18px;
+}
+.choosePlan h2 {
+  margin-bottom: 18px;
+  color: #0b132a;
+  font-size: 22px;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
+.choosePlan button {
+  color: #ba55d3;
+  border: 2px solid #ba55d3;
+  font-size: 15px;
+  width: 170px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.testimonials {
+  padding-top: 50px;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.testimonials p {
+  color: #4f5665;
+  font-size: 14px;
+}
+.testimonials span {
+  color: #4f5665;
+  font-size: 12px;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.testimonials h1 {
+  color: #0b132a;
+  font-weight: 500;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.testimonials h4 {
+  color: #0b132a;
+  font-size: 16px;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
+.subscription {
+  position: absolute;
+  top: 45%;
+  right: 2.5%;
+}
+.subscription p {
+  color: #4f5665;
+  font-size: 14px;
+}
+
+.subscription h1 {
+  color: #0b132a;
+  font-weight: 500;
+  font-size: 33px;
+}
+
+.subscription button {
+  color: #fff;
+  background-color: #ba55d3;
+  width: 200px;
+  font-weight: bold;
+  padding: 17px 5px;
+  box-shadow: 20px 15px 30px 9px rgba(186, 85, 211, 0.35);
+}
+
+.subscription button:hover {
+  color: #ba55d3;
+  background-color: #fff;
+  border: 1px solid #ba55d3;
+  width: 220px;
+}
+
+.cards {
+  min-height: 700px;
+}
+
+.cards:hover {
+  border: 1px solid #ba55d3;
+}
+.card2:hover {
+  border: 1px solid #ba55d3;
+}
+
+.cards:hover button {
+  color: #fff;
+  background-color: #ba55d3;
+}
+
+.cards button:focus {
+  border: none;
+  outline: 0;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 425px) {
+  .leftText {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .leftText button {
+    margin-bottom: 2rem;
+  }
+
+  .cardBody > div {
+    border: none !important;
+    justify-content: space-between !important;
+    padding: 0px !important;
+  }
+
+  .features {
+    text-align: center;
+  }
+
+  .subscription div > div {
     flex-direction: column;
+  }
+  .subscription {
+    top: 57%;
+    right: 0;
+  }
+
+  .subscription h1 {
+    font-size: 25px;
   }
 }

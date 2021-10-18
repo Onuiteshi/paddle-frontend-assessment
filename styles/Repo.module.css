@@ -1,0 +1,19 @@
+.repo {
+}
+.repo p {
+  color: #4f5665;
+  font-size: 14px;
+}
+.repo span {
+  color: #4f5665;
+  font-size: 12px;
+}
+
+.repo h1 {
+  color: #0b132a;
+  font-weight: 500;
+}
+.repo h3 {
+  color: #0b132a;
+  font-size: 24px;
+}

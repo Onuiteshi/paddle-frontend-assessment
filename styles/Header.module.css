@@ -1,0 +1,20 @@
+.navbarBrand {
+  font-size: 30px;
+  font-family: "Ranchers", cursive;
+  color: #ba55d3;
+}
+
+.navLink {
+  color: #4f5665;
+}
+
+.btnOutlinePurple {
+  color: #ba55d3;
+  border: 3px solid #ba55d3;
+  font-size: 15px;
+}
+
+.btnOutlinePurple:hover {
+  color: #fff;
+  background-color: #ba55d3;
+}
